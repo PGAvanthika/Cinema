@@ -1,0 +1,83 @@
+/* Container Styles */
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX0k8P411bpszJZwVDvIuVZJu2iFCkBcxrsmc68a-tPQjCeg1OBBUsOfID9-v5RzZSknM);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Form Styles */
+.form-container {
+    width: 100%;
+    max-width: 28rem; /* Equivalent to max-w-md */
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading Styles */
+h2 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f56565; /* Equivalent to text-red-500 */
+}
+
+/* Input Styles */
+input {
+    appearance: none;
+    border-radius: 0.375rem; /* Equivalent to rounded-md */
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db; /* Equivalent to border-gray-300 */
+    
+    color: #1f2937; /* Equivalent to text-gray-900 */
+    outline: none;
+}
+
+input:focus {
+    border-color: #f56565; /* Equivalent to focus:border-red-500 */
+}
+
+/* Button Styles */
+button {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 0.375rem; /* Equivalent to rounded-md */
+    background: linear-gradient(to right bottom, #e53e3e, #c53030); /* Equivalent to bg-gradient-to-br from-red-600 to-red-700 */
+    padding: 0.5rem;
+    color: white;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #c53030; /* Equivalent to hover:bg-red-800 */
+}
+
+/* Error Message Styles */
+.text-error {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #f56565; /* Equivalent to text-red-500 */
+}
+
+/* Link Styles */
+a {
+    font-weight: bold;
+    color: #f56565; /* Equivalent to text-red-500 */
+}
+
+a:hover {
+    color: #fc8181; /* Equivalent to hover:text-red-400 */
+}
+
+/* General Text Alignment */
+.text-right {
+    text-align: right;
+}
